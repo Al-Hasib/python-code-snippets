@@ -4,11 +4,11 @@ import re
 
 
 def verfication_code():
-    EMAIL = "alhasib.iu.cse@gmail.com"
-    PASSWORD = "mnmw uwqz osap rpkv"
+    EMAIL = "datacar30@gmail.com"
+    PASSWORD = "data2023"
     IMAP_SERVER = "imap.gmail.com"
     key = "FROM"
-    from_mail = "mdabdullahalhasib1111@gmail.com"
+    from_mail = "CARFAX@noreply.email.carfax.com"
 
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
     mail.login(EMAIL, PASSWORD)
