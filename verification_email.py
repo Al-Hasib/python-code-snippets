@@ -3,6 +3,19 @@ import email
 import re
 
 
+"""
+EMAIL = "datacar30@gmail.com"
+PASSWORD = "aqaj kmxm buxb sdtc"
+IMAP_SERVER = "imap.gmail.com"
+key = "FROM"
+from_mail = "CARFAX@noreply.email.carfax.com"
+
+mail = imaplib.IMAP4_SSL(IMAP_SERVER)
+mail.login(EMAIL, PASSWORD)
+mail.select("Inbox")
+status, ids = mail.search(None, key, from_mail)
+"""
+
 def verfication_code():
     EMAIL = "datacar30@gmail.com"
     PASSWORD = "data2023"
